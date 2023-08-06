@@ -12,11 +12,11 @@ class Signup : AppCompatActivity() {
         binding= ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         supportActionBar?.hide()
-        binding.text3.setOnClickListener {
 
 
-            var intent= Intent(this,MainActivity::class.java)
-            startActivity(intent)
-        }
+
+
+
+
     }
 }
